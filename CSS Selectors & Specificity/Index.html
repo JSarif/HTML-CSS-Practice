@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selctors & Specificity</title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>CSS Selectors & Specificity Reference</h1>
+    
+    <!-- CSS Selectors Table -->
+    <h2>CSS Selectors Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Syntax</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Universal Selector</td>
+                <td><span class="code">*</span></td>
+                <td>Selects all elements</td>
+            </tr>
+            <tr>
+                <td>Type Selector</td>
+                <td><span class="code">h1 h2 h3 p etc</span></td>
+                <td>Selects element/tag elements</td>
+            </tr>
+            <tr>
+                <td>Class Selector</td>
+                <td><span class="code">.value</span></td>
+                <td>Selects class selectors created by the class='value' element within the linked HTML file</td>
+            </tr>
+            <tr>
+                <td>ID Selector</td>
+                <td><span class="code">#value</span></td>
+                <td>Selects any ID selector created by the ID='value' element within the linked HTML file</td>
+            </tr>
+        </tbody>
+    </table>
+
+<!-- CSS Specificity Table -->
+    <h2>CSS Specificity Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Rank</td>
+            </tr>
+            <tr>
+                <td>ID Selector</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Class Selector</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Type Selector</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Universal Selector</td>
+                <td>4</td>
+            </tr>
+        </thead>
+    </table>
+    
+</body>
+</html>
